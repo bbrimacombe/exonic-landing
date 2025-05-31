@@ -3,14 +3,15 @@ body {
     padding: 0;
     background: #000;
     color: white;
-    font-family: system-ui, sans-serif;
-    height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
     animation: fadeIn 2s ease;
+    padding: 2rem;
+    box-sizing: border-box;
   }
   
   @keyframes fadeIn {
@@ -18,13 +19,31 @@ body {
     to   { opacity: 1; }
   }
   
-  h1 {
-    font-size: 3rem;
-    letter-spacing: 2px;
+  main {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
   
-  p {
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quote {
     font-size: 1.25rem;
-    opacity: 0.75;
+    font-weight: 400;
+    line-height: 1.6;
+    opacity: 0.85;
+  }
+  
+  .body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-weight: 500;
+    opacity: 0.9;
   }
   
