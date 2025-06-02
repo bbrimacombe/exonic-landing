@@ -49,5 +49,5 @@ main {
 
 /* Add this to increase spacing between paragraphs in .body */
 .body p {
-  margin-bottom: 5.0rem;
+  margin-bottom: 4.0rem;
 }
